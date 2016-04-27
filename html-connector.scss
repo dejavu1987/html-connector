@@ -1,0 +1,155 @@
+.html-connection{
+  height:200px;
+  width:200px;
+  position: relative;
+  float: left;
+  &.align-h-c {
+    .h.c, .v.l, .v.r{
+      display: block;
+    }
+    .v{
+      height:50%;
+    }
+    
+    &.s.e, &.n.w{
+      .v.r{
+          top: 50%;
+        }
+    }
+    
+    &.n.e, &.s.w{
+      .v.l{
+          top: 50%;
+        }
+    }
+  }
+  &.align-v-c {
+    .v.c, .h.t, .h.b{
+      display: block;
+    }
+    .h{
+      width:50%;
+    }
+    
+    &.s.e, &.n.w{
+      .h.b{
+          left: 50%;
+        }
+    }
+    
+    &.n.e, &.s.w{
+      .h.t{
+          left: 50%;
+        }
+    }
+  }
+  &.align-l {
+    .v.l{
+      display: block;
+    }
+    &.s.e, &.n.w{
+      .h.b{
+        display: block;
+      }
+    }
+    &.n.e, &.s.w{
+      .h.t{
+        display: block;
+      }
+    }
+  }
+  &.align-r {
+    .v.r{
+      display: block;
+    }
+    &.s.e, &.n.w{
+      .h.t{
+        display: block;
+      }
+    }
+    &.n.e, &.s.w{
+      .h.b{
+        display: block;
+      }
+    }
+  }
+  &>div{
+    position: absolute;
+    display: none;
+    
+    &.head, &.tail{
+      display:block;
+    }
+    &.tail{
+      content: " ";
+      border: 1px solid #c61839;
+      border-radius: 4px;
+      width: 4px;
+      height: 4px;
+      position: absolute;
+      background: #c61839;
+    }
+    &.head{
+      border: 3px solid #c61839;
+      transform: rotate(45deg);
+    }
+    &.l{
+      left: 0; 
+    }
+    &.r{
+      right:0;
+    }
+    &.t{
+      top:0;
+    }
+    &.b{
+      bottom: 0;
+    }
+    &.v.c{
+      left: 50%;
+    }
+    &.h.c{
+      top:50%;
+    }
+    &.v{
+      border-left: 1px solid #c61839;
+      height: 100%;
+    }
+    &.h{
+      border-top: 1px solid #c61839;
+      width: 100%;
+    }
+  }
+  &.n{
+    .head{
+      top: -3px;
+    }
+    .tail{
+      bottom: -3px;
+    }
+  }
+  &.s{
+    .head{
+      bottom: -3px;
+    }
+    .tail{
+      top: -3px;
+    }
+  }
+  &.e{
+    .head{
+      right: -3px;
+    }
+    .tail{
+      left: -3px;
+    }
+  }
+  &.w{
+    .head{
+      left: -3px;
+    }
+    .tail{
+      right: -3px;
+    }
+  }
+}
