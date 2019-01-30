@@ -16,7 +16,7 @@ HTML Connectors with plain CSS
 
 ## Possible directions:
 
-- `n e`: Towards NE
-- `n w`: Towards NW
-- `s e`: Towards SE
-- `s w`: Towards SW
+- `n e`: Towards North East
+- `n w`: Towards North West
+- `s e`: Towards South East
+- `s w`: Towards South West
