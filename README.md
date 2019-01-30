@@ -1,3 +1,3 @@
 # html-connector
 HTML Connectors with plain CSS
-![Screenshot]('/Screenshot 2019-01-30 at 16.37.47.png' "Html connector Screenshot")
+![Screenshot](/Screenshot%202019-01-30%20at%2016.37.47.png "Html connector Screenshot")
