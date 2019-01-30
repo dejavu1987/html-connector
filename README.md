@@ -1,10 +1,13 @@
-# html-connector
-HTML Connectors with plain CSS
+# HTML Connector
+
+HTML Connectors with plain CSS.
 
 
 
 ![Screenshot](/Screenshot%202019-01-30%20at%2016.37.47.png "Html connector Screenshot")
 
+
+The direction and alignment can be changed by using corresponding classes on connection element.
 
 ## Possible alignments:
 
