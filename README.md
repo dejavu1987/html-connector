@@ -8,15 +8,15 @@ HTML Connectors with plain CSS
 
 ## Possible alignments:
 
-- 1. align-h-c: Horizontally centered turn
-- 2. align-v-c: Vertically centered turn
-- 3. align-l: Left aligned
-- 4. align-r: Right aligned
+- `align-h-c`: Horizontally centered turn
+- `align-v-c`: Vertically centered turn
+- `align-l`: Left aligned
+- `align-r`: Right aligned
 
 
 ## Possible directions:
 
-- 1. n e: Towards NE
-- 2. n w: Towards NW
-- 3. s e: Towards SE
-- 4. s w: Towards SW
+- `n e`: Towards NE
+- `n w`: Towards NW
+- `s e`: Towards SE
+- `s w`: Towards SW
